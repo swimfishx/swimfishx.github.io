@@ -1,3 +1,5 @@
 TASKKILL /F /IM masterhelper.exe
-sc stop tdnetfilter
+TASKKILL /F /IM GATESRV.exe
+Sc Stop TdNetFilter
+Sc Stop TdFileFilter
 pause
