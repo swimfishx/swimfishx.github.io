@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>没驰Hub v0.2.1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header h3 {
+            font-size: 1.2rem;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+
+        section {
+            margin: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        section::before {
+            content: "";
+            position: absolute;
+            left: -10px;
+            top: 15px;
+            width: 4px;
+            height: calc(100% - 30px);
+            background-color: #4CAF50;
+            border-radius: 2px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-top: 0;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* 保留原有功能样式 */
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .download-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .download-link:hover {
+            background-color: #45a049;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .image-container img {
+            width: 204px;
+            height: 102px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>欢迎来到 没驰Hub!</h1>
+        <h3>Welcome to MeichiHUB</h3>
+        <p>by—<a href="https://ys.mihoyo.com" target="_blank">荧</a> / <a href="https://sr.mihoyo.com" target="_blank">星</a></p>
+    </header>
+
+    <div class="image-container">
+        <a href="https://www.bilibili.com/video/BV18D4y1d7Uz/?share_source=copy_web&vd_source=7c8cc9d0a4e556052e782dad4f619e16" target="_blank">
+            <img src="https://patchwiki.biligame.com/images/ys/6/64/5mcsfdvyw68fhoq36i8u8lz9oghyy3s.png" alt="Video 1">
+        </a>
+        <a href="https://www.bilibili.com/video/BV1PP4y1U7qA/?share_source=copy_web&vd_source=7c8cc9d0a4e556052e782dad4f619e16" target="_blank">
+            <img src="https://patchwiki.biligame.com/images/ys/archive/8/8b/20230809164214%21%E7%BA%B3%E8%A5%BF%E5%A6%B2%E6%8A%BD%E5%8D%A1%E7%AB%8B%E7%BB%98.png" alt="Video 2">
+        </a>
+    </div>
+
+    <section>
+        <h2>链接区</h2>
+        <ul>
+            <li><a href="https://bilibili.com" target="_blank">bilibili</a></li>
+            <li><a href="https://www.migufun.com/miguplay/middleGame/gameplay/400007864?gameName=%E5%8E%9F%E7%A5%9E" target="_blank">咪咕快游-原神</a></li>
+            <li><a href="https://swimfishx.github.io/migu-genshin-test.html" target="_blank">咪咕快游-原神-嵌入测试</a></li>
+            <li><a href="https://www.migufun.com/miguplay/middleGame/gameplay/400803874?gameName=%E5%B4%A9%E5%9D%8F%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93" target="_blank">咪咕快游-崩坏：星穹铁道</a></li>
+            <li><a href="https://www.migufun.com/miguplay/middleGame/gameplay/500000399?gameName=%E5%B4%A9%E5%9D%8F3" target="_blank">咪咕快游-崩坏三</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>下载区</h2>
+        <a href="./Tap to kill flowers.bat" download="Tap to kill flowers.bat" class="download-link">点击下载干掉极域小代码 :)</a>
+    </section>
+
+    <section>
+        <h2>鸣谢区</h2>
+        <p>感谢借给我手柄让我在闲暇时光进行放松活动的 <small><del>狰狞</del></small><ins>政宁</ins></p>
+        <p>另：你怎么知道我小草神<strong>5+1</strong>了？😉</p>
+    </section>
+
+    <footer>
+        <a href="https://swimfishx.github.io/update-log.html">© 2025 没驰Hub. All Rights Reserved.</a>
+    </footer>
+</body>
+</html>
